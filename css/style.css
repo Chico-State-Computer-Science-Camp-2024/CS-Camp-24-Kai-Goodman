@@ -4,12 +4,3 @@
 }
 
 
-#kitty{
-display: flex;
-justify-content: flex-end
-}
-
-#info{
-display: flex;
-justify-content: flex-start
-}
