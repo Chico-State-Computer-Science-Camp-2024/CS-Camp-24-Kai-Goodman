@@ -1,7 +1,24 @@
+.container{
+  display:flex;
+  flex-direction: row;
+}
+
+
+button {
+  background-color: rgb(59, 159, 72); /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  }
+
 
 html {
-  background-image: url("https://img.freepik.com/free-photo/realistic-shark-ocean_23-2151415363.jpg?t=st=1719392141~exp=1719395741~hmac=5b17b940ea1e8db5f13d16b71fa33135a9f702dcd7528ac522a0653f4bcf9ec7&w=900");
-  background-size: cover;
+  background-image: url("https://i.pinimg.com/originals/3a/98/d1/3a98d1b6e0ae67534c455e2f02526fbb.jpg");
+  *background-size;*
   background-repeat: no-repeat;
 }
 .body {
@@ -10,7 +27,7 @@ html {
 }
 
 h1 {
-  color: blue;
+  color: rgb(251, 255, 0);
   text-decoration: underline;
   text-align: center;
 }
