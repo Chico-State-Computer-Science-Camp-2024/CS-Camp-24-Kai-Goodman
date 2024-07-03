@@ -1,10 +1,13 @@
-let age = prompt("How old are you?");
-age = Number(age);
+let x = 100;
 
-if (age < 18) {
-    console.log("Welcome, young apprentice!");
-} else if (age >= 18) {
-    console.log("Welcome, ancient One!");
-}  else {
-    console.log("Invalid input");
+for(let i = 0; i <= x; i++) {
+    if (i % 5 === 0 && i % 10 === 0) {
+        console.log("Fizzbuzz");
+    } else if (i % 5 === 0) {
+        console.log("Fizz");
+    } else if (i % 10 === 0) {
+        console.log("buzz");
+    } else {
+        console.log(i);
+    }
 }
